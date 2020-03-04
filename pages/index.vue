@@ -1,5 +1,5 @@
 <template>
-  <div>{{photos}}</div>
+  <div class="bg-lightGrey-medium text-teal">{{photos}}</div>
 </template>
 
 <script>
