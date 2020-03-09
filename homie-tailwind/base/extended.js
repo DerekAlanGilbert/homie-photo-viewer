@@ -13,6 +13,12 @@ const fontSize = {
 
 // => Spacing additions
 const spacing = {
+  '1/3': '33.3333%',
+  '2/3': '66.6667%',
+  '1/5': '20%',
+  '2/5': '40%',
+  '3/5': '60%',
+  '4/5': '80%',
   '7': '1.75rem',
   '9': '2.25rem',
   '11': '2.75rem',
@@ -100,4 +106,12 @@ const boxShadow = {
   'shadow-btn': '0 0.15em 0 #45cdb1;'
 }
 
-module.exports = { fontSize, spacing, height, minHeight, minWidth, zIndex, boxShadow }
+module.exports = {
+  fontSize,
+  spacing,
+  height,
+  minHeight,
+  minWidth,
+  zIndex,
+  boxShadow
+}
